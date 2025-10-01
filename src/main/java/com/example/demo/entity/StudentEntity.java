@@ -26,6 +26,18 @@ public class StudentEntity {
         return course;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCourse(String course) {
+        this.course = course;
+    }
+
+    StudentEntity () {
+        System.out.println("this is default constructor");
+    }
+
     StudentEntity(String name, String course) {
         this.name = name;
         this.course = course;
